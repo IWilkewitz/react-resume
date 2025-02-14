@@ -1,12 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import NavBar from './components/NavBar';
-import ButtonAppBar from './components/ButtonAppBar';
-import BoxBasic from './components/BasicBox';
+
 import BoxSx from './components/BoxSx';
-import SimpleContainer from './components/Container';
-import SideBySideTextFields from './components/SBSTextField';
 import { Typography } from "@mui/material";
 import './App.css'
 import { TextField, Button } from '@mui/material';
@@ -16,11 +11,8 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import { Box } from '@mui/material';
-import AnimatedSection from './components/AnimatedSection';
 import ScrollAnimation from './components/ScrollAnimation';
 
-import logo from './assets/logo.png'
 
 
 
