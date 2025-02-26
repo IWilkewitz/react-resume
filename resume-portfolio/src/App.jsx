@@ -14,8 +14,6 @@ import '@fontsource/roboto/700.css';
 import ScrollAnimation from './components/ScrollAnimation';
 
 
-
-
 function App() {
 
   return (
@@ -55,21 +53,22 @@ function App() {
       </tr>
       <tr>
         <td><BoxSx><Typography variant="body1" sx={{ color: "black"}}>
-          A Work Smarter Tool (WST) is a piece of code written as a shortcut or automation to improve a common repetitive routine.
-           The goal of these tools is complete as much easily repeatable and time consuming work in as little mouse clicks as possible,
-            ideally only one. Some broad strokes examples include things such as:</Typography>
+          Work Smarter Tools (WST) are executable pieces of code I create as shortcuts or automations to improve a repetitive routine.
+           The goal of these tools is complete as much easily repeatable and time consuming work in as little mouse clicks as possible.<br />
+            Some examples of include things such as:</Typography>
             <ul>
-            <li><Typography variant='body1' sx={{ color: "black" }}>Combining all spreadsheet files in a folder into a singular file</Typography></li>
-            <li><Typography variant='body1' sx={{ color: "black"}}>Deleting rows which are missing data or unneeded columns from a spreadsheet</Typography></li>
-            <li><Typography variant='body1' sx={{ color: "black"}}>Performing data transformation and cleanup</Typography></li>
-            <li><Typography variant='body1' sx={{ color: "black"}}>...and much more!</Typography></li>
+            <li><Typography variant='body1' sx={{ color: "black" }}>Combining all spreadsheet files in a folder into a singular spreadsheet</Typography></li>
+            <li><Typography variant='body1' sx={{ color: "black"}}>Filling out a word doc template from spreadsheet data</Typography></li>
+            <li><Typography variant='body1' sx={{ color: "black"}}>Condensing word doc report by 80%</Typography></li>
+            <li><Typography variant='body1' sx={{ color: "black"}}>General data cleaning, transforming, and much more!</Typography></li>
             </ul></BoxSx></td>
-        <td><BoxSx><img id="lower" src="logo_t.png" alt="WST Logo" width="650" height="650"></img></BoxSx></td>
+        {/* <td><BoxSx><img id="lower" src="logo_t.png" alt="WST Logo" width="650" height="650"></img></BoxSx></td> */}
+        <td><BoxSx><img id="lower" src="WST_Example.gif" alt="WST Example" width="475" height="500"></img></BoxSx></td>
       </tr>
     </table>
     <div id="bumper"></div>
 
-    <ScrollAnimation><h1>WHAT FITS A WST?</h1></ScrollAnimation>
+    <ScrollAnimation><h1>What Fits a Work Smarter Tool?</h1></ScrollAnimation>
     <table>
       {/* <tr>
         <td><ScrollAnimation><h2>Do's</h2></ScrollAnimation></td>
