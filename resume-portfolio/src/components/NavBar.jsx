@@ -31,6 +31,8 @@ const NavBar = () => {
           <td class="nav"><a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">Résumé</a></td>
           <td class="nav"><a href="index.css">WorkSmarterTools</a></td>
           <td class="nav"><a href="https://www.linkedin.com/in/ianwi/" target="_blank" rel="noopener noreferrer">LinkedIn</a></td>
+          <td class="nav"><a href="/map.html" target="_blank" rel="noopener noreferrer">Mortgage Data</a></td>
+
         </tr>
       </table>
     </div>
